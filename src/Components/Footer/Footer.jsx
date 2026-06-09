@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-      <p>&copy; 2024 Golden Gauge. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear} Golden Gauge. All rights reserved.</p>
       <ul>
         <li>Terms of Services</li>
         <li>Privacy Policy</li>
